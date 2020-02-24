@@ -1,7 +1,9 @@
 # Site settings
-title:
-email:
+title: ПИК - Осветителна Техника
+email: piq.light@abv.bg
 description: > # this means to ignore newlines until "baseurl:"
+ Лед осветление, декоративно, интериорно, външно, техническо осветление,
+ проектиране и монтаж, нестандартни поръчки.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
