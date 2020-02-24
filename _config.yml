@@ -2,13 +2,24 @@
 title: ПИК - Осветителна Техника
 email: piq.light@abv.bg
 description: > # this means to ignore newlines until "baseurl:"
- Лед осветление, декоративно, интериорно, външно, техническо осветление,
- проектиране и монтаж, нестандартни поръчки.
+ Продажба и монтаж на осветителни тела и електро услуги.
+ Проектиране на декоративно, интериорно, външно и техническо осветление.
+ ЛЕД/LED осветление, свързване на LED ленти, захранване, димери,
+ RGB ленти и контролери.
+ Поддръжка на нисковолтови електрически инсталации, стълбищни автомати, датчици
+ за движение,
+url: "" # https://www.piq91.com # the base hostname & protocol for your site
+canonical_url: "# https://www.piq91.com" # https://www.piq91.com/
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+lang: bg_BG
 
 twitter_username:
 github_username:
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-menus
+  - jekyll-sitemap
+  - jekyll-seo-tag
