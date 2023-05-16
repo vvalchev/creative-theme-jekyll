@@ -1,15 +1,21 @@
 # Site settings
-title: Your Title Here
+title: ПИК - Осветителна Техника
+email: piq.light@abv.bg
+repository: vvalchev/piq91.com
 description: > # this means to ignore newlines until "baseurl:"
-repository: vvalchev/creative-theme-jekyll-new
-baseurl: "/creative-theme-jekyll-new/" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-author: Copyright &copy; 2019 - Start Bootstrap
-lang: en_US
+ Продажба и монтаж на осветителни тела и електро услуги.
+ Проектиране на декоративно, интериорно, външно и техническо осветление.
+ ЛЕД/LED осветление, свързване на LED ленти, захранване, димери,
+ RGB ленти и контролери.
+ Поддръжка на нисковолтови електрически инсталации, стълбищни автомати, датчици
+ за движение,
+url: "" # https://www.piq91.com # the base hostname & protocol for your site
+canonical_url: "# https://www.piq91.com" # https://www.piq91.com/
+baseurl: "" # the subpath of your site, e.g. /blog/
+lang: bg_BG
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
-markdown: kramdown
 sass:
   indentWidth: 4
   style: compressed
@@ -22,3 +28,4 @@ exclude:
   - Gemfile.lock
   - build-in-docker.sh
   - README.md
+
